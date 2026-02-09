@@ -3,7 +3,7 @@ class Vehicle:
     def move(self):
         print ("vehicle is moving")
 
-#derived class
+#derived class 1
 class Car(Vehicle):
     def move(self):
         print("Driving on the road")
@@ -17,4 +17,5 @@ class Bicycle(Vehicle):
 vehicles = [Vehicle(), Car(), Bicycle()]
 
 for v in vehicles:
+
     v.move()
