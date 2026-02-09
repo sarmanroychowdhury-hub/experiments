@@ -1,5 +1,5 @@
 class BankAccount:
-    def _init_(self,acc_no,bal):
+    def __init__(self,acc_no,bal):
         self.acc_no = acc_no
         self.balance = bal
         
@@ -26,7 +26,7 @@ obj = BankAccount(acc,bal)
 while True:
     print("\n1 Deposit")
     print("2 withdraw")
-    print("3 Check Balalance")
+    print("3 Check Balance")
     print("4 Exit")
     
     ch = input("Enter Choice:")
@@ -36,9 +36,10 @@ if ch == "1":
 elif ch == "2":
         obj.withdraw()
 elif ch == "3":
-        obj.check_balance
+        obj.check_balance()
 elif ch == "4":
     print("Thank You")
     break
 else:
+
     print("Wrong Choice")
