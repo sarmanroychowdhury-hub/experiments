@@ -25,3 +25,7 @@ def main():
         print("Invalid choice.")
 
 main() 
+
+
+# create a temperature folder and make files with nAME - kelvin, fahrenheit, celsius, __init__(keep it blank) - .py
+# create a separate file and import this above modules
