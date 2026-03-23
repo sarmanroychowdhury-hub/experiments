@@ -11,18 +11,17 @@ def main():
     
     if choice == 1:
         celsius = float(input("Enter temperature in Celsius: "))
-        print(f"{celsius}°C = {celsius_to_fahrenheit(celsius)}°F")
+        print(f"{celsius}°C = {c_to_f(celsius)}°F")
     
     elif choice == 2:
         fahrenheit = float(input("Enter temperature in Fahrenheit: "))
-        print(f"{fahrenheit}°F = {fahrenheit_to_celsius(fahrenheit)}°C")
+        print(f"{fahrenheit} = {f_to_c(fahrenheit)}°C")
     
     elif choice == 3:
         celsius = float(input("Enter temperature in Celsius: "))
-        print(f"{celsius}°C = {celsius_to_kelvin(celsius)}K")
+        print(f"{celsius}°C = {c_to_k(celsius)}K")
     
     else:
         print("Invalid choice.")
 
-if __name__ == "__main__":
-    main() 
+main() 
